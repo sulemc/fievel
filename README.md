@@ -2,15 +2,26 @@
 Insight DE project
 
 ## Project Idea 
-  Human trafficking in US is on the rise. According to Polaris, a nonprofit working to combat modern-day slavery and human trafficking, there was a 13 percent jump in identified cases from 2016 to 2017. The National Center for Missing and Exploited children says that 1 in 6 children who go missing are trafficked.
+  Human trafficking in US is on the rise. According to Polaris, a nonprofit working to combat modern-day slavery and human trafficking, there was a 13 percent jump in identified cases from 2016 to 2017. The National Center for Missing and Exploited children says that 1 in 6 children who go missing are trafficked.  
   I will be sourcing from multiple registries of missing people and cross-referencing them with known human trafficing ads in order to provide the appropriate NGOs, Police departments and local municipalites with relevant information for their areas of expertise.
 ## Tech Stack
   
+| Useage           | Tech Chosen  | Reason                                                 |
+|------------------|--------------|--------------------------------------------------------|
+| File System      | Azure and S3 | Data coming through NGO on Azure (data privacy issues) |
+| Ingestion        |              |                                                        |
+| Batch Processing |              |                                                        |
+| Data Store       |              |                                                        |
+| Scheduling       |              |                                                        |
+|                  |              |                                                        |
+
+![Image of flow](https://drive.google.com/open?id=1xmcKgYiNrk-n8SEFUnljrOuOp5gBmBp-)
+
 ## Data Source
   A national NGO has provided flagged human trafficking ads. I will be scraping from:  
-        1. https://www.fbi.gov/wanted/kidnap . 
-        2. https://api.missingkids.org/missingkids/servlet/PubCaseSearchServlet?act=usMapSearch&missState=OH (every state) . 
-        3. http://www.pollyklaas.org/ . 
+        1) https://www.fbi.gov/wanted/kidnap 
+        2) https://api.missingkids.org/missingkids/servlet/PubCaseSearchServlet?act=usMapSearch&missState=OH (every state)  
+        3) http://www.pollyklaas.org/ 
       As well as state websites and municipalites so as to ensure the most complete source of truth for missing persons
      
 ## Engineering Challenge
