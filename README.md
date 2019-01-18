@@ -8,10 +8,10 @@ Insight DE project
   
 ## Data Source
   A national NGO has provided flagged human trafficking ads. I will be scraping from:
-     - https://www.fbi.gov/wanted/kidnap
-     - https://api.missingkids.org/missingkids/servlet/PubCaseSearchServlet?act=usMapSearch&missState=OH (every state)
-     - http://www.pollyklaas.org/
-    As well as state websites and municipalites so as to ensure the most complete source of truth for missing persons
+        - https://www.fbi.gov/wanted/kidnap
+        - https://api.missingkids.org/missingkids/servlet/PubCaseSearchServlet?act=usMapSearch&missState=OH (every state)
+        - http://www.pollyklaas.org/
+      As well as state websites and municipalites so as to ensure the most complete source of truth for missing persons
      
 ## Engineering Challenge
   There are many layers to this project which add complexity
