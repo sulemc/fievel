@@ -15,7 +15,7 @@ Insight DE project
 | Scheduling       |              |                                                        |
 |                  |              |                                                        |
 
-![Image of flow](https://drive.google.com/open?id=1xmcKgYiNrk-n8SEFUnljrOuOp5gBmBp-)
+![Image of flow](https://github.com/sulemc/fievel/blob/master/fievel.png)
 
 ## Data Source
   A national NGO has provided flagged human trafficking ads. I will be scraping from:  
