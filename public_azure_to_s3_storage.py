@@ -26,12 +26,12 @@ except botocore.exceptions.ClientError as e:
 #The grunt work - copying each blob from Azure and putting it in S3 bucket
 for blob in generator:
     #get the blob
-    b = block_blob_service.get_blob_to_bytes('htmlarchive', blob.name)
+    b = block_blob_service.get_blob_to_bytes('THE_CONTAINER_YOU_WANT_TO_ACCESS', blob.name)
     #check that it doesn't already exist in the bucket
-    content = client.head_object(Bucket='fievel',Key=blob.name)
+    content = client.head_object(Bucket='YOUR_BUCKET_NAME',Key=blob.name)
     if content.get('ResponseMetadata',None) is not None:
-        next
+        continue
     else:
         #if file is not already in bucket, put it in bucket
         bucket.put_object(Key=blob.name, Body=b.content)
-    
+
