@@ -1,6 +1,6 @@
 ref_dict = {
     'div' : { 
-        'itemprop' : find
+        'itemprop' : {'description': find()}
     }
 
 }
