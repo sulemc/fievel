@@ -16,6 +16,8 @@ class poster:
                                 password=self.himitsu)
             if self.connection.is_connected():
                 self.cursor = connection.cursor(buffered=True)
+    def check_for_table(table_name, column_names):
+        #create function to check for existence of table and create it if it doesn't exist
 
     def post_to_db(self, html_results_dict, table_name):
         column_name_tuple = ()

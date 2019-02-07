@@ -39,4 +39,4 @@ class parser_archive:
                     for item in results:
                     if item != '\n':
                         results_dict[label] + str(item)
-            
+        return results_dict
