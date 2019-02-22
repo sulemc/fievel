@@ -1,0 +1,4 @@
+bs4
+boto3
+botocore
+azure.storage.blob
